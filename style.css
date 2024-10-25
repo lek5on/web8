@@ -1,0 +1,61 @@
+header{
+    height: 100px;
+    box-shadow: 0px 7px 15px rgb(169, 169, 169)
+}
+footer{
+  height: 100px;
+  box-shadow: 0px -7px 15px rgb(169, 169, 169);
+}
+.forma{
+    height: 500px;
+}
+
+.main_btn{
+    width: 300px;
+    height: 50px;
+    
+    box-shadow: 5px 7px 10px rgb(169, 169, 169)
+}
+.form_btn{
+    width: 120px;
+    height: 40px;
+}
+.form_btn2{
+    width: 100px;
+    height: 30px;
+}
+.popup {
+    display: none; /* Скрыт по умолчанию */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 90%; /* Для адаптивности */
+    max-width: 400px; /* Максимальная ширина */
+    border-radius: 25px;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+body{
+    height: 100%;
+}
+.min-height-100vh {
+    min-height: 100vh; /* Задает минимальную высоту 100% от высоты экрана */
+    display: flex;   /* Включает flexbox */
+    flex-direction: column; /* Выравнивает элементы по вертикали */
+  }
+ 
+  
